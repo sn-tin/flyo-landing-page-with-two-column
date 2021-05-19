@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;600;700&display=swap');
+
+:root {
+    --featureColor: hsl(240, 75%, 98%);
+    --ctaColor: hsl(238, 22%, 44%);
+    --footerColor: hsl(243, 87%, 12%);
+    --button: hsl(224, 93%, 58%);
+    --highlight: hsl(170, 45%, 43%);
+    --grayText: hsl(0, 0%, 75%);
+}
+
+body {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+/* Navbar */
+
+.navbar {
+    margin: 20px 0 50px;
+}
+
+.navbar-brand {
+    width: 30%;
+    margin: 0;
+    text-align: left;
+}
+
+.nav-logo {
+    max-width: 100%;
+}
+
+.navbar-nav {
+    padding-left: 45px;
+}
+
+.nav-link {
+    font-family: 'Raleway';
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 0%);
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: rgb(59, 59, 59);
+}
+
+/* Title Content */
+
+#title {
+    padding: 10px;
+}
+
+.title-content {
+    padding: 10px;
+}
+
+.illustrations {
+    max-width: 100%;
+    padding: 10px;
+}
+
+form {
+    margin: 30px 1px;
+}
+
+input {
+    font-family: 'Raleway';
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.btn {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    background-color: var(--button);
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 87%, 71%);
+}
+
+
+/* Features */
+
+#features {
+    margin-top: 100px;
+}
+
+.curve-bg {
+    width: 100%;
+}
+
+.feature-box {
+    background-color: var(--featureColor);
+    padding: 30px 20px;
+}
+
+.features-image {
+    margin-bottom: 50px;
+}
+
+.features-text h2 {
+    font-size: 1rem;
+}
+
+.features-text p {
+    color: hsl(0, 0%, 0%);
+    opacity: 70%;
+    text-align: left;
+}
+
+.feature-link {
+    margin: 40px 0 50px;
+}
+
+.feature-link-a {
+    color: var(--highlight);
+    border-bottom: 1px solid var(--highlight);
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.feature-link-a:hover {
+    color: hsl(170, 45%, 62%);
+    border-bottom: 1px solid hsl(170, 45%, 62%);
+}
+
+/* Testament */
+
+.testament {
+    padding: 0 30px 30px;
+    margin-bottom: 50px;
+}
+
+.testament-box {
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+
+.quote {
+    width: 20px;
+    display: block;
+}
+
+.avatar {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.testament-p {
+    font-size: 0.65rem;
+    line-height: 2;
+    margin: 0;
+}
+
+.profile {
+    margin-top: 10px;
+}
+
+.profile-name {
+    margin-left: 20px;
+}
+
+.profile-h1 {
+    font-size: 0.8rem;
+    text-align: left;
+    margin: 0;
+}
+
+.profile-p {
+    font-size: 0.5rem;
+    margin: 0;
+}
+
+
+/* Call to Action */
+
+#cta {
+    background-color: var(--ctaColor);
+    color: hsl(0, 0%, 100%);
+    padding: 60px 20px 80px;
+}
+
+.cta-text {
+    padding: 10px 0;
+}
+
+.cta-text h2 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.cta-form {
+    margin: 0;
+    padding: 0 30px;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--footerColor);
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+}
+
+.footer {
+    padding: 30px 30px 0;
+}
+
+.logo-and-contacts {
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    filter: invert(100%) brightness(1000%) grayscale(100%);
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.contacts li {
+    margin-bottom: 15px;
+}
+
+.footer-a {
+    margin-top: 15px;
+}
+
+.footer-a li {
+    margin-bottom: 10px;
+}
+
+
+/* Links */
+
+.links {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 40px;
+}
+
+.socials.fb {
+    padding: 7px 12px;
+}
+
+.socials {
+    border: 1px solid hsl(0, 0%, 100%);
+    line-height: 1;
+    border-radius: 50%;
+    padding: 8px 9px;
+    margin: 5px;
+}
+
+@media (min-width: 768px) {
+
+    .box {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    p {
+        font-size: 0.8rem;
+        margin: auto auto 10px;
+    }
+    /* Navbar */
+
+
+    .nav-logo {
+        width: 60%;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    /* Title Content */
+
+    .illustrations {
+        padding: 0;
+        padding-left: 60px;
+    }
+
+    .title-content {
+        text-align: left;
+        align-items: center;
+    }
+
+    .title-text form {
+        padding-right: 50px;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    /* Features */ 
+
+    .feature-box {
+        text-align: left;
+        align-items: center;
+    }
+
+    .feature-link {
+        margin: 0;
+    }
+
+    .feature-link-a {
+        font-size: 0.8rem;
+    }
+
+    .testament {
+        padding: 30px;
+        padding-left: 0;
+    }
+    
+    .testament-box {
+        border-radius: 5px;
+        background-color: hsl(0, 0%, 100%);
+        padding: 20px;
+    }
+
+
+    /* Call to Action */
+
+    #cta {
+        padding: 50px 150px;
+    }
+
+    .cta-text h2 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    /* Footer */
+
+    .footer-logo {
+        margin-top: 20px;
+    }
+
+    .footer-a {
+        margin-right: 50px;
+    }
+
+    /* Links */
+
+    .links {
+        align-items: flex-start;
+        padding: 15px 0 0;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .box {
+        padding: 50px 80px;
+    }
+
+    #cta .box, footer.box {
+        padding: 100px 80px;
+    }
+
+    h1{
+        font-size: 2.3rem;
+    }
+
+    p, .features-text-p, .feature-link-a {
+        font-size: 1rem;
+    }
+
+    /* Navbar */
+
+    .navbar {
+        margin: 0;
+        margin-bottom: 80px;
+    }
+
+    .nav-logo {
+        width: 40%;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+    }
+
+    /* Title Content */
+
+    .illustrations {
+        width: 100%;
+        padding: 0;
+    }
+
+    .title-image, .title-text, .features-image, .features-text {
+        width: 50%;
+    }
+
+    .title-text {
+        padding-right: 100px;
+    }
+
+    .title-text p {
+        padding-right: 5%;
+    }
+
+    form {
+        margin: 20px 0 0;
+    }
+
+    input {
+        padding: 8px 10px;
+        margin-right: 10px;
+        width: 65%;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+        border-radius: 2px;
+        width: 30%;
+        margin: 0;
+    }
+
+    /* Features */
+
+    .features-image .illustrations {
+        padding-left: 100px;
+    }
+
+    .features-text h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .features-text-p {
+        opacity: 100%;
+        padding-right: 20%;
+        margin-bottom: 15px;
+    }
+
+    .feature-link {
+        margin-bottom: 40px;
+    }
+
+    .testament {
+        width: 60%;
+    }
+
+    .testament-box {
+        padding: 30px;
+    }
+
+    .testament-p {
+        font-size: 0.9em;
+    }
+    
+    .profile-h1 {
+        font-size: 1rem;
+        text-align: left;
+        margin: 0;
+    }
+    
+    .profile-p {
+        font-size: 0.7rem;
+        margin: 0;
+    }
+
+    
+    /* Call to Action */
+
+    #cta {
+        text-align: left;
+        padding: 0;
+    }
+
+    .cta-box {
+        align-items: center;
+    }
+
+    .cta-text, .cta-form {
+        width: 50%;
+    }
+
+    .cta-text h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .cta-text p {
+        font-size: 1rem;
+        margin-right: 10%;
+    }
+
+
+    .cta-form {
+       margin-left: 15%;
+    }
+
+    .cta-form input {
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .cta-form .btn {
+        margin-top: 15px;
+        width: 35%;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 0;
+    }
+
+    .footer-a {
+        margin-right: 15%;
+    }
+
+    .footer-logo {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .links {
+        padding: 15px 0;
+    }
+
+    .socials.fb {
+        padding: 8px 12px;
+    }
+    
+    .socials {
+        border: 1px solid hsl(0, 0%, 100%);
+        line-height: 1;
+        border-radius: 50%;
+        padding: 8px 9px;
+        margin: 5px;
+    }
+    
+}
