@@ -84,6 +84,7 @@ form {
 }
 
 input {
+    background-color: hsl(0, 0%, 100%);
     font-family: 'Raleway';
     font-size: 0.8rem;
     padding: 10px 20px;
