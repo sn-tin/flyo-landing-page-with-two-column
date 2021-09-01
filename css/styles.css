@@ -79,17 +79,6 @@ p {
     padding: 10px;
 }
 
-form {
-    margin: 30px 1px;
-}
-
-input {
-    font-family: 'Raleway';
-    font-size: 0.8rem;
-    padding: 10px 20px;
-    width: 100%;
-}
-
 .btn {
     font-size: 0.9rem;
     font-weight: 600;
@@ -214,11 +203,6 @@ input {
 .cta-text h2 {
     margin: 0;
     font-size: 1.3rem;
-}
-
-.cta-form {
-    margin: 0;
-    padding: 0 30px;
 }
 
 /* Footer */
@@ -428,16 +412,6 @@ footer {
 
     .title-text p {
         padding-right: 5%;
-    }
-
-    form {
-        margin: 20px 0 0;
-    }
-
-    input {
-        padding: 8px 10px;
-        margin-right: 10px;
-        width: 65%;
     }
 
     .btn {
